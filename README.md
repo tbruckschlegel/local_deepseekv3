@@ -65,8 +65,13 @@ Execute llame.cpp with the path to the model file, cache type, threads, gpu offl
 
 P.S. On low end machines like mine wtih only 32GB of RAM, you may get better results, ignoring the GPU (RTX 4090) and run a few more threads on the CPU (Intel i7 12700)
 No GPU, more threads:
+
 ```C:\DEV\llama.cpp\build\bin\Release>llama-cli.exe --model d:\Downloads\DeepSeek-V3-Q3_K_M-00001-of-00007.gguf --cache-type-k q5_0 --threads 32 --prompt "<|User|>What is DevOps and what are important topics there?<|Assistant|>``` 
+
+
 Less threads, with GPU:
+
+
 ```C:\DEV\llama.cpp\build\bin\Release>llama-cli.exe --model d:\Downloads\DeepSeek-V3-Q3_K_M-00001-of-00007.gguf --cache-type-k q5_0 --threads 16 --n-gpu-layers 5 --prompt "<|User|>What is DevOps and what are important topics there?<|Assistant|>```
 
 
