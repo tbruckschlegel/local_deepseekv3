@@ -260,3 +260,6 @@ generate: n_ctx = 4096, n_batch = 2048, n_predict = -1, n_keep = 1
 ```
 
 Now you can hit "enter" and wait for the model to respond.
+
+[1]: https://git-scm.com/downloads
+[2]: https://cmake.org/download/
