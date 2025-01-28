@@ -4,7 +4,7 @@ Do you have data privacy concerns using a LLM? Here is how to run Deepseek V3 lo
 ## Requirements
 
 * Windows 11 x64
-* SSD space & RAM & GPU & CPU cores - the more the better
+* SSD space & RAM & NVIDIA GPU (optional) & CPU cores - the more the better
 * [Optional if you want to compile llame.cpp locally]Visual Studio 2022 (download latest version from [Visual Studio Subscriptions page][15])
   * Use `Desktop Development with C++` during installation
   * [CMake 3.15.1][2] or newer and make sure it is part of the PATH environment variable
