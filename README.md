@@ -22,7 +22,7 @@ Download https://github.com/ggerganov/llama.cpp/releases e.g. "llama-b4575-bin-w
 
 or
 
-**Compiling llame.cpp**
+**Compiling llame.cpp (optional)**
 
 Clone the repo: ```$ git clone https://github.com/ggerganov/llama.cpp```
 Go into the repro folder
