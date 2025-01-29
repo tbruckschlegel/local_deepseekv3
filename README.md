@@ -1,4 +1,4 @@
-# local_deepseekv3
+# Locally running DeepSeekV3
 Do you have data privacy concerns using a LLM or do you want unfiltered responses? Here is how to run Deepseek V3 locally on your Machine.
 
 ## Requirements
@@ -13,23 +13,27 @@ Do you have data privacy concerns using a LLM or do you want unfiltered response
 
 ## Preparation
 
-**Install NVIDIA CUDA Support (optional)**
-
-Download the latest CUDA toolkit and install it https://developer.nvidia.com/cuda-toolkit
 
 **Install llame.cpp**
 Download https://github.com/ggerganov/llama.cpp/releases e.g. "llama-b4575-bin-win-cuda-cuXX.X-x64.zip" for Windows with CUDA support and extract it
 
-or
 
-**Compiling llame.cpp (optional)**
+## Using the GPU(optional)
 
+
+**Install NVIDIA CUDA Support**
+Download the latest CUDA toolkit and install it https://developer.nvidia.com/cuda-toolkit
+
+**Compiling llame.cpp with GPU support**
 Clone the repo: ```$ git clone https://github.com/ggerganov/llama.cpp```
 Go into the repro folder
 CMake configuration:
 Step 1: ```$ cmake -B build -DGGML_CUDA=ON```
 Step 2: ```$ cmake --build build --config Release```
 Wait for the build to finish
+
+
+## Running the LLM
 
 **Testing llame.cpp**
 
