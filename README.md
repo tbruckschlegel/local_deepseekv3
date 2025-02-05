@@ -72,20 +72,19 @@ P.S. On low end machines like mine wtih only 32GB of RAM, you may get better res
 
 No GPU, more threads:
 
-```C:\DEV\llama.cpp\build\bin\Release>llama-cli.exe --model d:\Downloads\DeepSeek-V3-Q3_K_M-00001-of-00007.gguf --cache-type-k q5_0 --threads 32 --prompt "<|User|>What happened 1989 in tienanmen?<|Assistant|>``` 
+```C:\DEV\llama.cpp\build\bin\Release>llama-cli.exe --model d:\Downloads\DeepSeek-V3-Q3_K_M-00001-of-00007.gguf --cache-type-k q5_0 --threads 32 --prompt "<|User|>What happened 1989 in tienanmen?<|Assistant|>"``` 
 
 
 Less threads, with GPU:
 
 
-```C:\DEV\llama.cpp\build\bin\Release>llama-cli.exe --model d:\Downloads\DeepSeek-V3-Q3_K_M-00001-of-00007.gguf --cache-type-k q5_0 --threads 16 --n-gpu-layers 5 --prompt "<|User|>What happened 1989 in tienanmen?<|Assistant|>```
+```C:\DEV\llama.cpp\build\bin\Release>llama-cli.exe --model d:\Downloads\DeepSeek-V3-Q3_K_M-00001-of-00007.gguf --cache-type-k q5_0 --threads 16 --n-gpu-layers 5 --prompt "<|User|>What happened 1989 in tienanmen?<|Assistant|>"```
 
 
 Output:
 
 ```
-C:\DEV\llama.cpp\build\bin\Release>llama-cli.exe --model d:\Downloads\DeepSeek-V3-Q3_K_M-00001-of-00007.gguf --cache-type-k q5_0 --threads 32 --n-gpu-layers 5 --prompt "<|User|>What happened 1989 in tienanmen?<|Assistant
-|>
+C:\DEV\llama.cpp\build\bin\Release>llama-cli.exe --model d:\Downloads\DeepSeek-V3-Q3_K_M-00001-of-00007.gguf --cache-type-k q5_0 --threads 32 --n-gpu-layers 5 --prompt "<|User|>What happened 1989 in tienanmen?<|Assistant|>"
 ggml_cuda_init: GGML_CUDA_FORCE_MMQ:    no
 ggml_cuda_init: GGML_CUDA_FORCE_CUBLAS: no
 ggml_cuda_init: found 1 CUDA devices:
