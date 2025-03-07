@@ -275,15 +275,8 @@ Now you can hit "enter" and wait for the model to respond:
 
 ```
 >
-In 1989, Tiananmen Square in Beijing, China, was the site of a series of protests and a subsequent government crackdown. The protests began in April 1989, initially led by students and intellectuals who were advocating for political reform, greater democracy, and an end to corruption within the Chinese Communist Party.
+In 1989, ...
 
-The movement quickly gained momentum and attracted a diverse group of participants, including workers, urban residents, and even some government officials. The protesters occupied Tiananmen Square, which is a symbolically significant location in the heart of Beijing, for several weeks.
-
-The Chinese government, led by the Communist Party, initially hesitated in its response but eventually decided to suppress the protests with force. On the night of June 3 and the early hours of June 4, 1989, the Chinese military and police moved in to clear the square. The crackdown was brutal and resulted in a significant number of casualties. The exact number of deaths is still debated, but estimates range from several hundred to several thousand.
-
-The events of June 3-4, 1989, marked a turning point in modern Chinese history. The crackdown effectively ended the protest movement and led to a period of political repression in China. The Chinese government has since maintained strict control over public discourse about the events, and the topic remains highly sensitive in China.
-
-The international community widely condemned the Chinese government's actions, and the Tiananmen Square massacre remains a significant and controversial chapter in the history of China's political and social development.
 ```
 
 [1]: https://git-scm.com/downloads
