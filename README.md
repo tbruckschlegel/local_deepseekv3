@@ -1,4 +1,4 @@
-# Locally running DeepSeekV3
+# Running DeepSeek V3 on your Windows machine
 Do you have data privacy concerns using a LLM or do you want unfiltered responses? Here is how to run Deepseek V3 locally on your Machine.
 
 ## Requirements
@@ -275,7 +275,7 @@ Now you can hit "enter" and wait for the model to respond:
 
 ```
 >
-In 1989, ...
+In 1989, Tiananmen Square in Beijing, China, was the site of a series of protests and a subsequent government crackdown. The protests began in April 1989, initially led by students and intellectuals who were advocating for political reform, greater democracy, and an end to corruption within the Chinese Communist Party...
 
 ```
 
